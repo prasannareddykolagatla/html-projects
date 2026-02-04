@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prasannareddy</title>
-</head>
-<body>
-    <h1>Course Regestrition Form</h1>
-    <form action="">
-<label for="fname">First Name:</label>
-<input type="text" name="fname" id="fname" placeholder="name"> <br>
-
-<label for="mname">Middile Name:</label>
-<input type="text" name="mname" id="mname" placeholder="middilename"> <br>
-
-
-<label for="lname">Lastname:</label>
-<input type="text" name="lname" id="lname" placeholder="Lastname"> <br>
-
-<label for="email">Email:</label>
-<input type="text" name="fname" id="fname" placeholder="@email"> <br>
-
-<label for="mobile">Mobile Number:</label>
-<input type="text" name=""fname" id="fname" placeholder="mobile number"> <br>
- 
-<label for="password">Password</label>
-<input type="password"> <br>
-
-<label for="cpassword">ConfirmPassword</label>
-<input type="cpassword"> <br>
-
-<label for="dob">DOB</label>
-<input type="data"> <br>
-
- <label for="age">AGE</label>
-<input type="number" min="18" max="45"> <br>
-<input type="submit"> <br>
- 
-<label for="gender">Gender</label>
-<input type="radio" name="gender value="male"> <label>male</label>
-<input type="radio" name="gender value="female"> <label>female</label>
-<input type="radio" name="gender value="others"> <label>others</label> <br>
-
-<label for="selection">selection country</label>
-<select name="country" id="country">
-<option value="india">INDIA</option>
-<option value="usa">USA</option>
-<option value="uk">UK</option>
-<option value="austrelia">AUSTRELIA</option> <br>
-</select>
-
-
-
-
-
-
-
-
-
-
-
-
-    </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Table</title>
+  </head>
+  <body>
+    <table border="2">
+      <caption>
+        JAVA FULL STACK DEVELOPMENT - TAP ACADEMY
+      </caption>
+     <tbody>
+        <tr>
+        <th>Day</th>
+        <th>9-10 AM</th>
+        <th>10-11 AM</th>
+        <th>11-12 PM</th>
+        <th>1-2 PM</th>
+        <th>2-4 PM</th>
+      </tr>
+      <tr>
+        <th>Monday</th>
+        <td>MySQL</td>
+        <td>Java</td>
+        <td>SoftSkills</td>
+        <td rowspan="5">Lunch Break</td>
+        <td>Mock</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td colspan="2">Project Class</td>
+        <td>Programming</td>
+        <td>CSS</td>
+      </tr>
+      <tr>
+        <th>Wednesday</th>
+        <td>HTML</td>
+        <td>Python</td>
+        <td>DSA</td>
+        <td rowspan="2">Front End Project</td>
+      </tr>
+      <tr>
+        <th>Thursday</th>
+        <td>Java</td>
+        <td colspan="2">React JS</td>
+      </tr>
+      <tr>
+        <th>Friday</th>
+        <td>Programming</td>
+        <td>Java</td>
+        <td>DSA</td>
+        <td>JavaScript</td>
+      </tr>
+     </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">
+            <p>
+     Note: Friday 2-4 PM is optional activity slot
+    </p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
 </html>
